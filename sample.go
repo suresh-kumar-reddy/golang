@@ -66,4 +66,33 @@ func main(){
 
     fmt.Printf("%T,%v",iss,iss)
 
+
+    var num int64 =98595959595
+    fmt.Println(num)
+
+
+//    s:="sandeep reddy"
+
+  //  fmt.Printf("%v, %T",s[6],s[6])
+
+
+    s:= "sandeep reddy"
+
+    fmt.Printf("%v, %T\n",string(s[2]),s[2])
+
+    alpha:="ABCDS"
+    b:=[]byte(alpha)
+    fmt.Printf("%v, %T\n\n",b,b)
+
+    const myNum int=45
+
+    fmt.Println(myNum)
+    fmt.Println("\n\n")
+    const myCompanyName string="sandeep corporation"
+
+
+    fmt.Println(myCompanyName)
+
+
+
 }
